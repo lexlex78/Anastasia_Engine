@@ -1,0 +1,4 @@
+deny from all
+#<Files "router.php">
+#    Allow from all 
+#</Files>

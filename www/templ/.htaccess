@@ -1,0 +1,7 @@
+deny from all
+<Files "img_fbook.php">
+    Allow from all 
+</Files>
+<Files "img_google.php">
+    Allow from all 
+</Files>

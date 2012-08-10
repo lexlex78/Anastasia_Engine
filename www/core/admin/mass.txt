@@ -1,0 +1,1 @@
+UPDATE site_set SET  `tel`='(057) 751-32-42, 343-68-22', `email`='dogcatvet@yandex.ru', `reg`='Работаем круглосуточно', `adr`='Харьков, ул. Новопрудная, 9-Б' WHERE id=1

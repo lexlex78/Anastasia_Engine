@@ -1,0 +1,386 @@
+AWSTATS DATA FILE 6.95 (build 1.943)
+# If you remove this file, all statistics for date 201207 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.test7.upsale-production.ru.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1972                
+POS_TIME 2643                
+POS_VISITOR 8825                
+POS_DAY 9152                
+POS_DOMAIN 3307                
+POS_LOGIN 3541                
+POS_ROBOT 3696                
+POS_WORMS 3828                
+POS_EMAILSENDER 3959                
+POS_EMAILRECEIVER 4102                
+POS_SESSION 9481                
+POS_SIDER 9653                
+POS_FILETYPES 4237                
+POS_OS 4534                
+POS_BROWSER 4597                
+POS_SCREENSIZE 4807                
+POS_UNKNOWNREFERER 4881                
+POS_UNKNOWNREFERERBROWSER 4968                
+POS_ORIGIN 5050                
+POS_SEREFERRALS 5191                
+POS_PAGEREFS 5335                
+POS_SEARCHWORDS 5483                
+POS_KEYWORDS 5635                
+POS_MISC 2305                
+POS_ERRORS 5694                
+POS_CLUSTER 3397                
+POS_SIDER_404 5821                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20120801100115 1 0 54946130499
+FirstTime 20120717100526
+LastTime 20120731095321
+LastUpdate 20120801110214 1 0 0 0 0
+TotalVisits 24                  
+TotalUnique 6                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 6                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 561 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 4 33 206903 0 3 1359
+1 0 0 0 0 0 0
+2 1 26 183884 0 2 913
+3 0 0 0 0 0 0
+4 0 0 0 0 0 0
+5 0 0 0 0 0 0
+6 0 0 0 0 0 0
+7 0 0 0 0 0 0
+8 0 0 0 0 0 0
+9 17 215 36442 0 8 3640
+10 279 1484 1218525 6 107 68821
+11 143 679 553809 0 67 30971
+12 238 1063 2028493 10 118 58736
+13 46 199 387523 0 39 17868
+14 267 936 2120275 1 53 24497
+15 215 975 1041766 0 335 154250
+16 390 1433 1687024 6 321 476557
+17 238 1584 598305 15 166 75086
+18 211 1133 1859710 3 108 49102
+19 188 671 315873 0 90 41484
+20 0 0 0 0 0 0
+21 0 0 0 0 0 0
+22 0 0 0 0 0 0
+23 0 0 0 0 0 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 2237 10431 12238532
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 13
+htc 5 204878 0 0
+css 812 184281 0 0
+bmp 3 427771 0 0
+png 3806 1981477 0 0
+htm 7 9200 0 0
+xlsx 1 14078 0 0
+php 1245 1597457 0 0
+tif 2 182448 0 0
+html 682 2089002 0 0
+js 1704 2379826 0 0
+jpg 1501 2324127 0 0
+Unknown 295 683939 0 0
+gif 368 160048 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 2
+winlong 1
+win2008 10430
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 10
+msie8.0 41
+firefox13.0.1 33
+msie7.0 49
+firefox14.0.1 6079
+safari5.1.5 27
+msie9.0 89
+chrome20.0.1132.57 3900
+chrome19.0.1084.52 26
+opera9.80 152
+safari5.1.7 35
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 177 193
+From1 0 0
+From2 0 0
+From3 0 0
+From4 2060 10238
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+302 11 12214
+500 18 7668
+301 12 6907
+404 813 614783
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 44
+/js/pop-up.js 2 http://test7.upsale-production.ru/
+/js/close_pop.js 2 http://test7.upsale-production.ru/
+/js/jquery-ui-1.8.20.custom.min.js 14 http://test7.upsale-production.ru/
+/js/reg/soc.js 2 http://test7.upsale-production.ru/
+/img/recl/1231.JPG 29 http://test7.upsale-production.ru/contacts.html
+/admin/css/admin/css/images/down.gif 2 http://test7.upsale-production.ru/admin/
+/img/banner/1024.JPG 7 http://test7.upsale-production.ru/admin/
+/img/about/Tulips.jpg 1 http://test7.upsale-production.ru/team.html
+/css/images/load.gif 315 http://test7.upsale-production.ru/admin/
+/admin/css/admin/css/images/up.gif 2 http://test7.upsale-production.ru/admin/
+/js/user/subscr.js 2 http://test7.upsale-production.ru/
+/js/form.js 1 http://test7.upsale-production.ru/
+/img/action/Koala.jpg 2 http://test7.upsale-production.ru/admin/
+/admin/css/images/down.gif 1 http://test7.upsale-production.ru/admin/
+/admin/lists/link_list.js 2 http://test7.upsale-production.ru/admin/js/tiny_mce/plugins/advlink/link.htm
+/css/form.css 1 http://test7.upsale-production.ru/
+/img/comand/Penguins.jpg 2 http://test7.upsale-production.ru/admin/
+/img/about/Koala.jpg 1 http://test7.upsale-production.ru/team.html
+/js/stars.js 2 http://test7.upsale-production.ru/
+/img/banner/1167.JPG 7 http://test7.upsale-production.ru/admin/
+/js/albums/main.js 2 http://test7.upsale-production.ru/
+/js/reg/reg.js 2 http://test7.upsale-production.ru/
+/img/banner/1164.JPG 8 http://test7.upsale-production.ru/admin/
+/admin/images/ico-hirurg.png 89 -
+/js/jquery.main.js 2 http://test7.upsale-production.ru/
+/js/tiny_mce/plugins/emotions/img/smiley-kiss.gif 1 http://test7.upsale-production.ru/news/1
+/js/jquery-1.7.1.min.js 2 http://test7.upsale-production.ru/
+/admin/images/ico-terapia.png 94 -
+/js/jquery.validationEngine.js 2 http://test7.upsale-production.ru/
+/img/banner/1049.JPG 7 http://test7.upsale-production.ru/admin/
+/js/cufon-fonts.js 2 http://test7.upsale-production.ru/
+/js/jquery.form.js 2 http://test7.upsale-production.ru/
+/js/openClose.js 2 http://test7.upsale-production.ru/
+/css/all.css 1 http://test7.upsale-production.ru/
+/img/banner/94003.JPG 6 http://test7.upsale-production.ru/team.html
+/img/about/Penguins.jpg 4 http://test7.upsale-production.ru/admin/
+/img/about/img-team2.png 1 http://test7.upsale-production.ru/team.html
+/admin/images/ico-vakcina.png 90 -
+/js/cufon-settings.js 2 http://test7.upsale-production.ru/
+/admin/images/ico-acusher.png 90 -
+/css/validationEngine.jquery.css 2 http://test7.upsale-production.ru/
+/admin/css/images/up.gif 1 http://test7.upsale-production.ru/admin/
+/js/cufon.js 2 http://test7.upsale-production.ru/
+/js/jquery.validationEngine-ru.js 2 http://test7.upsale-production.ru/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 6
+109.86.252.77 2213 10231 11092916 20120731095321
+194.106.219.94 11 93 592517 20120730151638
+82.117.230.59 7 47 159018 20120730122426
+159.224.52.36 4 33 206903 20120719003244
+109.87.70.211 1 26 183884 20120725021655
+178.151.171.214 1 1 3294 20120730180957
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 11
+20120717 325 1241 986550 2
+20120718 175 945 1177584 3
+20120719 64 409 513642 4
+20120720 249 974 620940 3
+20120723 703 3505 6193813 2
+20120724 703 3198 2010542 3
+20120725 1 28 183884 1
+20120726 1 26 183884 1
+20120727 1 22 2444 1
+20120730 14 82 361954 3
+20120731 1 1 3295 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+1h+ 9
+2mn-5mn 2
+0s-30s 7
+30s-2mn 6
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 79
+/core/admin/read.php 466 847050 0 3
+/admin/ 250 1034023 3 0
+/ 204 536871 15 10
+/core/admin/edit.php 190 224285 1 2
+/core/admin/edit_bd.php 189 88872 0 0
+/team.html 108 344376 2 3
+/core/admin/add.php 102 104051 1 0
+/core/admin/tree_read.php 76 92224 0 0
+/core/admin/add_bd.php 66 30730 0 0
+/news 66 174733 0 2
+/article/3 2 4383 0 0
+/action/2 11 25395 0 0
+/action 43 120212 0 1
+/img/banner/tiff_1020.tif 2 182448 0 0
+/test! 1 454 0 0
+/article/4 13 30901 0 0
+/admin/js/tiny_mce/plugins/emotions/emotions.htm 1 1276 0 0
+/vakcina.html 1 453 0 0
+/admin/login.php 21 20603 0 0
+/article/1 2 4373 0 0
+/prav.html 6 2722 0 0
+/seo1.html 1 453 0 0
+/myadmin/export.php 2 45041 0 0
+/admin/index.php 4 7144 0 0
+/gruming 2 907 0 0
+/action/1 15 32414 0 0
+/core/admin/del_bd.php 13 5917 0 0
+/myadmin/index.php 2 3804 0 0
+/action/3 7 17142 0 0
+/sdfsd 10 4537 0 0
+/core/admin/tree_drop.php 24 10755 0 0
+/myadmin/db_structure.php 1 7076 0 0
+/myadmin/db_export.php 1 8765 0 0
+/seo.html 14 30860 0 0
+/myadmin/server_export.php 1 8305 0 0
+/core/admin/tree_del.php 6 2679 0 0
+/testpage1 1 454 0 0
+/img/action/ 2 1490 0 0
+/sdfsdds 1 2162 0 0
+/contact.html 2 908 0 0
+/myadmin/ 1 3780 0 0
+/3 1 454 0 0
+/qw.html 17 10054 0 0
+/action.html 15 31167 0 1
+/img/comand/ 1 773 0 0
+/testpage123 3 1360 0 0
+/css/PIE.htc 5 204878 0 0
+/admin/js/tiny_mce/plugins/xhtmlxtras/cite.htm 1 1653 0 0
+/core/admin/edit_tree.php 26 24970 0 0
+/news/1 35 86813 0 1
+/myadmin/navigation.php 2 5698 0 0
+/localhost 1 454 0 0
+/mainpage 1 454 0 0
+/hir.html 5 2269 0 0
+/contacts.html 30 75774 0 0
+/news/3 2 4936 0 0
+/img/banner/New_Admin.xlsx 1 14078 0 0
+/admin/js/tiny_mce/themes/advanced/source_editor.htm 3 983 0 0
+/testpage 5 2267 0 0
+/core/admin/sort_bd.php 18 8044 1 0
+/action/4 4 11067 0 0
+/myadmin/phpmyadmin.css.php 3 12619 0 0
+/team 1 453 0 0
+/info.html 8 3629 0 0
+/img/banner/ 5 3910 0 0
+/contacts! 1 453 0 0
+/admin/js/tiny_mce/plugins/advlink/link.htm 1 3073 0 0
+/article/2 9 19652 0 0
+/myadmin/main.php 1 8353 0 0
+/terap.html 7 3175 0 0
+/admin/js/tiny_mce/plugins/table/table.htm 1 2215 0 0
+/news/1.html 2 954 0 0
+/core/admin/add_tree.php 31 30472 0 0
+/news/5 3 7395 0 0
+/index 1 2162 0 0
+/article 28 70598 0 0
+/tegdfgdfgdfgdf 1 454 0 0
+/news/2 25 56900 1 1
+/akush.html 3 1361 0 0
+END_SIDER

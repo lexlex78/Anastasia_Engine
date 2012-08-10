@@ -1,0 +1,6 @@
+AuthType Basic
+AuthName "/www/test7.upsale-production.ru/webstat"
+AuthUserFile /var/www/test7/data/etc/6471686.passwd
+<Limit GET POST>
+	require valid-user
+</Limit>

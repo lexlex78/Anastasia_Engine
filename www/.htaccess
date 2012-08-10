@@ -1,0 +1,34 @@
+RewriteEngine On
+RewriteBase /
+
+# PHP error handling for development servers
+#php_flag display_startup_errors on
+#php_flag display_errors on
+#php_flag html_errors on
+#php_flag log_errors on
+#php_flag ignore_repeated_errors on
+#php_flag ignore_repeated_source on
+#php_value error_reporting "E_ALL" 
+#& ~E_NOTICE" 
+
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond %{HTTP_HOST} ^www\.r2\.upsale-production\.ru$ [NC]
+RewriteRule ^(.*)$ http://r2.upsale-production.ru/$1 [R=301,L]
+
+AddDefaultCharset utf-8
+php_value default_charset "utf-8"
+
+RewriteRule ^index.html  / [R=301,L]
+RewriteRule ^index.htm  / [R=301,L] 
+
+## админка
+RewriteRule ^admin/$    admin/index.php [L]
+
+## перенаправляем все на index.php кроме css, js, count, admin, img, images и ajax - запровсов 
+RewriteCond %{REQUEST_URI} !(css|js|admin|img|images)
+#RewriteCond %{REQUEST_URI} !modul/search/ajax
+RewriteRule ^.*$ index.php [L]
+ 
+ErrorDocument 404 /index.php#?error=404

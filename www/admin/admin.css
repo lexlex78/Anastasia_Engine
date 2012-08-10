@@ -1,0 +1,6 @@
+body 
+{background-color: #bbb;font-size: 11px;}
+.menuname
+{float: left; margin-top: -20px; color:gray; font-weight: bold; font-size: 120%;}
+.btnbck 
+{float: right; margin-top: -20px; color:gray; font-weight: bold;}
