@@ -1,2 +1,2 @@
 <? 
-require './core/index.php';
+requi re './core/index.php';
